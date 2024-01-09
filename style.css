@@ -1203,6 +1203,10 @@ video {
     width: 100%;
   }
 
+  .md\:w-64 {
+    width: 16rem;
+  }
+
   .md\:min-w-44 {
     min-width: 11rem;
   }
