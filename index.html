@@ -21,28 +21,32 @@
     </style>
 </head>
 <body class="bg-[#191A19] grid place-content-cente max-w-sm md:max-w-6xl mx-auto h-screen text-white font-['Inter']">
-    <nav class="mx-8 fixed bg-[#191A19] w-full">
-        <ul class="flex justify-start mx-auto font-light text-sm text-lime-50 py-12">
-            <a href="#home">
-                <li class="p-3">HOME</li>
-            </a>
-            <a href="#skills">
-                <li class="p-3">SKILLS</li>
-            </a>
-            <a href="#projects">
-                <li class="p-3">PROJECTS</li>
-            </a>
-        </ul>
-    </nav>
+    <div>
+        <nav class="mx-8 fixed bg-[#191A19] w-full">
+            <ul class="flex justify-start mx-auto font-light text-sm text-lime-50 py-12">
+                <a href="#home">
+                    <li class="p-3">HOME</li>
+                </a>
+                <a href="#skills">
+                    <li class="p-3">SKILLS</li>
+                </a>
+                <a href="#projects">
+                    <li class="p-3">PROJECTS</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
 
     <!-- <section> -->
         <section class="md:flex mt-28 mx-8" id="home">
             <div class="my-8 grid place-content-center">
-                <div class="text-6xl font-['Arvo'] font-bold">Hello I’m  Saumil</div>
-                <div class="text-3xl  font-['Arvo'] font-medium pt-2">I’m  Developer</div>
-                <p class="text-neutral-400 pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tempora error quod nihil a voluptates ipsa dolorem aut vitae distinctio praesentium eaque rem itaque suscipit totam, ullam modi corporis tenetur.</p>
+                <div class="text-6xl font-['Arvo'] font-bold">Hi there!</div>
+                <div class="text-3xl  font-['Inter'] font-extralight pt-2">I’m <span class="uppercase font-medium">Saumil Shah</span></div>
+                <p class="text-neutral-400 pt-4">A Software Engineer with two years of experience at Capgemini. I studied Computer Engineering and really enjoy working with tech. I like making cool things online.</p>
                 <div class="pt-6">
-                    <button class="bg-[#D8E9A8] text-[#1E5128] p-3 font-black text-sm md:w-44 w-full rounded-lg">RESUME</button>
+                    <a href="#">
+                        <button class="bg-[#D8E9A8] text-[#1E5128] p-3 font-black text-sm md:w-44 w-full rounded-lg">RESUME</button>
+                    </a>
                 </div>
             </div>
             <div>
@@ -106,12 +110,34 @@
         <div class="mx-8">
             <div class="text-3xl  font-['Arvo'] font-bold pt-8">Projects</div>
             <div class="pt-4">Under Construction ... 🚧</div>
-            <div class="bg-[#121212] my-8 p-8 text-xl font-medium rounded-2xl">
+            <div class="bg-[#121212] my-8 p-8 rounded-2xl">
+                <div class="text-xl font-medium">
+                    Portfolio
+                    <p class="text-neutral-400 text-base font-light py-2">
+                        My portfolio website created using tailwind CSS.
+                    </p>
+                </div>
+                <div class="py-4">  
+                    <img src="./assets/projects/02.png" class="mx-auto md:h-96 md:w-auto rounded-3xl object-cover text-center" alt="">
+                </div>
+            </div>
+            <div class="bg-[#121212] my-8 p-8 rounded-2xl">
+                <div class="text-xl font-medium">
+                    Rock Paper Scissors
+                    <p class="text-neutral-400 text-base font-light py-2">
+                        A simple game as per title made using JavaScript.
+                    </p>
+                </div>
+                <div class="py-4">  
+                    <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-3xl object-cover text-center" alt="">
+                </div>
+            </div>
+            <!-- <div class="bg-[#121212] my-8 p-8 text-xl font-medium rounded-2xl">
                 Portfolio
             </div>
             <div class="bg-[#121212] my-8 p-8 text-xl font-medium rounded-2xl">
                 Rock Paper Scissors
-            </div>
+            </div> -->
             <div class="bg-[#121212] my-8 p-8 text-xl font-medium rounded-2xl">
                 Songs Download
             </div>
