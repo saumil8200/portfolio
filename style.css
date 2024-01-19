@@ -575,6 +575,10 @@ video {
   margin-top: 7rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
